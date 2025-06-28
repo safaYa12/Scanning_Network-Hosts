@@ -1,0 +1,23 @@
+nmap -Pn -p- -sS -sV -O 192.168.0.1
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-01-19 18:51 +06
+Stats: 0:00:29 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 0.00% done
+Stats: 0:00:31 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
+NSE Timing: About 90.91% done; ETC: 18:51 (0:00:00 remaining)
+Nmap scan report for 192.168.0.1
+Host is up (0.0075s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    GoAhead WebServer
+1980/tcp open  http    Cisco DPC3828S WiFi cable modem
+MAC Address: E8:65:D4:60:4B:B0 (Tenda Technology,Ltd.Dongguan branch)
+Device type: general purpose
+Running: Wind River VxWorks
+OS CPE: cpe:/o:windriver:vxworks
+OS details: VxWorks
+Network Distance: 1 hop
+Service Info: Device: WAP; CPE: cpe:/h:cisco:dpc3828s
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 31.86 seconds
+                                                              
